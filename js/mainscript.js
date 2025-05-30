@@ -11,7 +11,10 @@ let secondNumber = Number(prompt("scegli un altro numero"));
 if (firstNumber > secondNumber) {
     console.log(firstNumber);
     
-} else {
+} else if (firstNumber < secondNumber) {
     console.log(secondNumber);
+    
+} else {
+    console.log("i due numeri sono uguali");
     
 }
